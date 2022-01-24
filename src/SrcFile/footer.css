@@ -1,0 +1,169 @@
+
+/*============================footer Start==================================*/
+.container2{
+	max-width: 1170px;
+	margin:auto ;
+}
+
+footer{
+	backdrop-filter: blur(20rem);
+	background: rgb(220, 52, 9, 0.1);
+	color: ghostwhite;
+	padding: 5rem 0;
+}
+
+footer ul{
+	list-style: none;
+}
+
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 0.5rem;
+}
+.footer-col h4{
+	font-size: 1.5rem;
+	font-weight: lighter;
+	font-family: serif;
+	margin-left: 1.2rem;
+	margin-bottom: 2rem;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -1rem;
+	background-color: #e91363;
+	height: 0.1rem;
+	box-sizing: border-box;
+	width: 5rem;
+	margin-left: 4rem;
+
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 1rem;
+}
+
+/*-------------------------------contact us start----------------------*/
+
+.footer-col ul li{
+	font-size: 1rem;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3 ease;
+	text-align: center;
+	padding-right: 1rem;
+}
+.footer-col ul li:hover{
+	color: #ffffff;
+	padding-left: 1rem;
+}
+.footer-col a{
+	padding: .3rem;
+}
+/*-------------------------------contact us end----------------------*/
+
+/*----------------------------follows us start---------------------------------*/
+footer i{
+	color: whitesmoke;
+	width: 30rem;
+	height: 10rem;
+
+}
+
+.circle{
+	font-size: 1.8rem;
+  padding: 0.5rem 0.7rem;
+  width: 3rem;
+	height: 3rem;
+	border-radius:50%;
+}
+.circle:hover{
+	background: #245452;
+	color: #ffffff;
+}
+
+
+.fa-youtube{
+	background: #bb0000;
+	margin-top: 1rem;
+}
+
+.fa-instagram{
+	background: #bb0000;
+}
+
+.fa-twitter{
+	background: #4099ff;
+}
+
+.fa-facebook{
+	background: #3B5998;
+}
+
+.fa-pinterest{
+	color: #cb2027;
+	background: rgb(2, 2, 2,0.2);
+}
+
+/*---------------------------------follows us end----------------------*/
+
+/*---------------------------------Help start----------------------*/
+footer #foothelp{
+	text-decoration: none;
+	color: #ffffff;
+	padding-top: 0.2rem;
+	background: rgb(0, 50, 0,0.4);
+	box-shadow: 0.4rem 0.3rem white;
+	border-radius: 2rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	letter-spacing: 0.5rem;
+}
+
+/*--------------------------Help End---------------------------*/
+
+/*--------------------------feedback start---------------------------*/
+.footer-col input{
+	text-align: center;
+	border-radius: 2rem;
+	background: rgb(100, 50, 0,0.3);
+	color: white;
+	height: 2rem;
+	margin-bottom:1rem ;
+}
+
+
+.footer-col textarea{
+	background: rgb(100, 50, 0,0.3);
+	color: white;
+	border-radius: 2rem;
+	width: 15rem;
+	height: 7rem;
+	padding: 0.8rem;
+}
+.footer-col button{
+	width: 10rem;
+	background: rgb(100, 10, 100,0.2);
+	color: floralwhite;
+	border-radius: 1rem;
+	margin-top: 1.2rem;
+}
+.footer-col button:hover{
+	background: chocolate;
+	color: maroon;
+}
+/*--------------------------feedback End---------------------------*/
+
+/*============================footer End============================*/
+
+

@@ -1,0 +1,152 @@
+/*---------------------------------start---------------------------------*/
+/*header resposive code*/
+
+@media(max-width: 56.56rem){
+	html{
+		display: flex;
+	}
+	#marquee1{
+		margin: auto 1rem auto 5rem;
+		width: 20rem;	
+	}
+	.clearfix{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		width: 20rem;
+		padding: auto 5rem;
+	}
+	#popdiv input[type=text]:focus, input[type=password]:focus {
+	   font-size: 0.8rem;
+	}
+	.footer-col{
+		width: 50%;
+		margin-bottom: 1.8rem;
+	}
+
+	.navbar{
+		height: 18rem;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		text-align: center;
+	}
+
+	.mainnav{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 2rem auto;
+	}
+
+	#expandedImg{
+		width: 28rem;
+	}
+
+	main .row{
+		margin: 0 2rem;
+	}
+
+	.column{
+		padding: 0.9rem;
+	}
+
+	#fieldart{
+		border-radius: 2.5rem;
+		width: 38rem;
+		height: 35rem;
+		backdrop-filter: blur(40rem);
+		margin: auto;
+		background-color: rgb(0, 0, 0, 0.4);
+		padding:2.0rem 0 0 0;
+	}
+
+	legend{
+		font-size: 1.2rem;
+	}
+
+	#pre{
+		font-size: 0.9rem;
+	}
+
+}
+
+@media(max-width: 30.3rem){
+	.footer-col{
+			width: 100%;
+	}
+	header .models {
+		width: 20rem;
+	}
+	#popdiv .container{
+		width: 18rem;
+	}
+	
+	
+}
+
+@media(max-width: 38.56rem){
+
+	#fieldart{
+			width: 25%;
+			margin:auto;
+	}
+
+	#expandedImg{
+		width: 18rem;
+	}
+
+	main .row{
+		margin: 1rem;
+	}
+
+	main .column img{
+		border-radius: 0.5rem;
+	}
+
+	.column{
+		padding: 0.25rem;
+	}
+
+	#fieldart{
+		border-radius: 2.5rem;
+		width: 22.2rem;
+		height: 45rem;
+		backdrop-filter: blur(40rem);
+		margin: auto;
+		background-color: rgb(0, 0, 0, 0.4);
+		padding:2.0rem 0 0 0;
+	}
+
+	legend{
+		font-size: 1.2rem;
+	}
+
+	#pre{
+		font-size: 0.9rem;
+		padding: 0 2rem 1rem 2rem;
+	}
+
+}
+
+
+@media(min-width: 45.56rem){
+		
+	#headline1{
+		background-color: #bf033b;
+		background-image: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+		font-weight: bold;
+		font-size: 1.5rem;
+		border-radius: 5rem;
+	}
+
+	#marquee1{
+		margin: auto 1rem auto 5rem;
+		width: 20rem;	
+	}
+}
+/*---------------------------------end---------------------------------*/
