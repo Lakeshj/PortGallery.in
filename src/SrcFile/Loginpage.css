@@ -28,14 +28,17 @@
 
 /* Set a style for all buttons */
 #popdiv button {
-      background-color: #4CAF50;
-      color: white;
+      background-color: #feca57;
+      color: #222f3e;
+      box-shadow: 0 0 3px 1px rgb(255 255 255);
+      font-weight: 500;
+      letter-spacing: 0.051rem;
       padding: 0 15px;
       margin:0 0 0 15px ; <!-- margin: top right bottom left-->
       border: none;
       cursor: pointer;
       opacity: 0.9;
-      border-radius:10px;
+      border-radius: 10px;
 }
 
 #popdiv button:hover {
