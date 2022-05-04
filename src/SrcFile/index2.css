@@ -42,7 +42,7 @@ body{
 /*oncrolling progress bar*/
 body .progress-container{
 	width: 100%;
-    height: 0.4rem;
+    height: 0.3rem;
     background-color: #182b2b;
     position: fixed;
 	top: 0;
@@ -51,7 +51,7 @@ body .progress-container{
 
 body .progressbar{
 	background-color: #bb7850;
-	height: 0.4rem;
+	height: 0.23rem;
 }
 
 /*this is image gallery*/
@@ -68,7 +68,8 @@ body .progressbar{
   opacity: 0.8; 
   cursor: pointer; 
   border-radius: 1.1rem;
-  
+  width: 100%;
+  height: 100%;
 }
 
 .column img:hover {
