@@ -1,4 +1,4 @@
-@import 'response.css';
+/* @import 'response.css'; */
 
 #popdiv body {
   font-family: Arial, Helvetica, sans-serif;
@@ -28,16 +28,18 @@
 
 /* Set a style for all buttons */
 #popdiv button {
-      background-color: #feca57;
-      color: #222f3e;
-      font-weight: 500;
-      letter-spacing: 0.051rem;
-      padding: 0 15px;
-      margin:0 0 0 15px ; /* margin: top right bottom left */
-      border: none;
-      cursor: pointer;
-      opacity: 0.9;
-      border-radius: 10px;
+  background-color: #feca57;
+  color: #222f3e;
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.051rem;
+  margin: 0 0 0 15px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 2rem;
+  width: 9rem;
+  padding: 0.25rem 0;
 }
 
 #popdiv button:hover {

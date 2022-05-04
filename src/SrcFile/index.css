@@ -1,7 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	  
+}
+html{
+	font-size: 62.5%;
+}
 
-@import 'index2.css';
-@import 'Loginpage.css';
-@import 'footer.css';
-@import 'response.css';
+body{
+	margin: auto;background-color: #4d4855;
+	background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
 
-/*@import '../../src/bootsrapsrc/font-awesome-4.7.0/css/font-awesome.css';*/
+}
+
+#headline1{
+	background-color: #bf033b;
+	background-image: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+	font-weight: bold;
+	font-size: 2.5rem;
+	border-radius: 5rem;
+}
+#mynavbar{
+	gap: 14.5%;
+}
+#mynavbar ul{
+	display: flex;
+}
+#marquee1{
+    width: 24rem;
+}
+
+#form1{
+	visibility: hidden;
+	margin-right: 2rem;
+}
+
+/*oncrolling progress bar*/
+body .progress-container{
+	width: 100%;
+    height: 0.3rem;
+    background-color: #182b2b;
+    position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+body .progressbar{
+	background-color: #bb7850;
+	height: 0.23rem;
+}
+header nav{
+	padding: 1rem 0;
+	gap: 2rem;
+}
+.mainnav {
+    width: 100%;
+}
+
+
+.mainnav li a {
+	font-size: 2rem;
+	text-transform: capitalize;	
+}
+/*this is image gallery*/
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  width: 15%;
+  padding: 0.8vw;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+  border-radius: 1.1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.column img:hover {
+  opacity: 1;
+  }
+
+main .row{
+	/*width: 65rem;*/
+	margin: 1rem 0;
+	border-radius: 1.5rem;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .row div{
+	border: 1px solid rgb(50, 100, 50, 0.7);
+	border-radius: 0.8rem;
+}
+/* Clear floats after the columns */
+main .row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: relative;
+  bottom: 0.5rem;
+  /*left: 25em;*/
+  color: orangered;
+  font-size: 1.2rem;
+  font-style:italic ;
+  font-family: cursive;
+  margin: auto;
+  
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.11rem;
+  color: white;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+/*this is end of image gallery*/
+
+/*---------------------------fieldart start----------------*/
+#hr1{
+	margin:auto; 
+	border:0.1rem darkmagenta dashed;
+}
+
+#fieldart{
+	border-radius: 2.5rem;
+    width: 78%;
+    backdrop-filter: blur(40rem);
+    margin: 2rem auto;
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 3rem 0;
+}
+
+legend{
+	
+	text-align: center;
+	color: whitesmoke;
+	font-size: 3vw;
+}
+
+#pre{
+	font-size: 1.3vw;
+	color: royalblue;
+	/*padding: 30px;*/
+	word-spacing: 0.2rem;
+	letter-spacing: 0.12rem;
+	padding: 0 5rem;
+	font-weight: 300;
+	text-align: justify;
+}
+/*---------------------------fieldart end---------------------*/
+
+
