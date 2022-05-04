@@ -10,11 +10,10 @@
 	}
 	.clearfix{
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
-		width: 20rem;
-		padding: auto 5rem;
+		gap: 1.5rem;
+		
 	}
 	#popdiv input[type=text]:focus, input[type=password]:focus {
 	   font-size: 0.8rem;
@@ -79,6 +78,14 @@
 	main .column img{
 		border-radius: 0.5rem;
 	}
+	.clearfix{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		gap: 1.5rem;
+		flex-wrap: wrap;
+		align-content: center;
+	}
 
 	.column{
 		padding: 0.25rem;
@@ -101,6 +108,7 @@
 		font-size: 1.2rem;
 		padding: 0 2rem 1rem 2rem;
 	}
+
 
 }
 
