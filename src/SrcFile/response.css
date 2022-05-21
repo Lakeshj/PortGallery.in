@@ -114,10 +114,10 @@
 
 @media(max-width: 484px){
 	html{
-		font-size: 50%;
+		font-size: 70%;
 	}
 	.footer-col{
-		width: 82;
+		width: 82%;
 		font-size: 2rem;
 	}
 	header .models {
