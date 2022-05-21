@@ -37,7 +37,6 @@
 	#fieldart{
 		border-radius: 2.5rem;
 		width: 38rem;
-		height: 35rem;
 		backdrop-filter: blur(40rem);
 		margin: auto;
 		background-color: rgb(0, 0, 0, 0.4);
@@ -60,10 +59,7 @@
 }
 
 @media (max-width: 616px){
-	html{
-		font-size: 70%;
-	}
-
+	
 	#fieldart{
 			width: 25%;
 			margin:auto;
@@ -117,8 +113,12 @@
 
 
 @media(max-width: 484px){
+	html{
+		font-size: 50%;
+	}
 	.footer-col{
-			width: 100%;
+		width: 82;
+		font-size: 2rem;
 	}
 	header .models {
 		width: 20rem;
