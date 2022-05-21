@@ -87,6 +87,7 @@
 
 	.column{
 		padding: 0.25rem;
+		width: 18%;
 	}
 
 	#fieldart{
@@ -115,6 +116,9 @@
 @media(max-width: 484px){
 	html{
 		font-size: 70%;
+	}
+	.column {
+    		width: 21%;
 	}
 	.footer-col{
 		width: 82%;
