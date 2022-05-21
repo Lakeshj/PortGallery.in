@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 616px){
+	html{
+		font-size: 70%;
+	}
 
 	#fieldart{
 			width: 25%;
